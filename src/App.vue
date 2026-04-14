@@ -3,7 +3,8 @@
 <template>
   <header>
     <figure>
-      <img src="/top-image.png" alt="Omelete with cheese and ham" />
+      <img src="/top-image.png" alt="Omelette" />
+      <figcaption class="sr-only">Omelette with cheese and ham</figcaption>
     </figure>
     <h1 class="text-preset-01">Simple Omelette Recipe</h1>
     <p class="text-preset-04">
@@ -83,6 +84,12 @@
           <caption class="sr-only">
             Nutritional values per serving without additional fillings.
           </caption>
+          <thead class="sr-only">
+            <tr>
+              <th scope="col">Nutrient</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <th scope="row" class="text-preset-04-bold">Calories</th>
