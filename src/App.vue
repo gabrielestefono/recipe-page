@@ -17,20 +17,14 @@
       <section>
         <h2 class="text-preset-03">Preparation time</h2>
         <dl>
-          <div>
-            <dt class="text-preset-04-bold">Total:</dt>
-            <dd class="text-preset-04">Approximately 10 minutes</dd>
-          </div>
+          <dt class="text-preset-04-bold">Total:</dt>
+          <dd class="text-preset-04">Approximately 10 minutes</dd>
 
-          <div>
-            <dt class="text-preset-04-bold">Preparation:</dt>
-            <dd class="text-preset-04">5 minutes</dd>
-          </div>
+          <dt class="text-preset-04-bold">Preparation:</dt>
+          <dd class="text-preset-04">5 minutes</dd>
 
-          <div>
-            <dt class="text-preset-04-bold">Cooking:</dt>
-            <dd class="text-preset-04">5 minutes</dd>
-          </div>
+          <dt class="text-preset-04-bold">Cooking:</dt>
+          <dd class="text-preset-04">5 minutes</dd>
         </dl>
       </section>
       <section>
