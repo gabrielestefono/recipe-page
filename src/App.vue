@@ -75,30 +75,29 @@
       </section>
       <section>
         <h2 class="text-preset-02">Nutrition</h2>
+        <p class="text-preset-04">
+          The table below shows nutritional values per serving without the additional fillings.
+        </p>
+
         <table>
-          <thead>
-            <tr>
-              <th class="text-preset-04">
-                The table below shows nutritional values per serving without the additional
-                fillings.
-              </th>
-            </tr>
-          </thead>
+          <caption class="sr-only">
+            Nutritional values per serving without additional fillings.
+          </caption>
           <tbody>
             <tr>
-              <td class="text-preset-04-bold">Calories</td>
+              <th scope="row" class="text-preset-04-bold">Calories</th>
               <td class="text-preset-04">277kcal</td>
             </tr>
             <tr>
-              <td class="text-preset-04-bold">Carbs</td>
+              <th scope="row" class="text-preset-04-bold">Carbs</th>
               <td class="text-preset-04">0g</td>
             </tr>
             <tr>
-              <td class="text-preset-04-bold">Protein</td>
+              <th scope="row" class="text-preset-04-bold">Protein</th>
               <td class="text-preset-04">20g</td>
             </tr>
             <tr>
-              <td class="text-preset-04-bold">Fat</td>
+              <th scope="row" class="text-preset-04-bold">Fat</th>
               <td class="text-preset-04">22g</td>
             </tr>
           </tbody>
@@ -106,7 +105,6 @@
       </section>
     </article>
   </main>
-  <footer></footer>
 </template>
 
 <style scoped></style>
