@@ -16,18 +16,22 @@
     <article>
       <section>
         <h2 class="text-preset-03">Preparation time</h2>
-        <ul>
-          <li class="text-preset-04">
-            <strong class="text-preset-04-bold">Total: </strong
-            ><span>Approximately 10 minutes</span>
-          </li>
-          <li class="text-preset-04">
-            <strong class="text-preset-04-bold">Preparation: </strong><span>5 minutes</span>
-          </li>
-          <li class="text-preset-04">
-            <strong class="text-preset-04-bold">Cooking: </strong><span>5 minutes</span>
-          </li>
-        </ul>
+        <dl>
+          <div>
+            <dt class="text-preset-04-bold">Total:</dt>
+            <dd class="text-preset-04">Approximately 10 minutes</dd>
+          </div>
+
+          <div>
+            <dt class="text-preset-04-bold">Preparation:</dt>
+            <dd class="text-preset-04">5 minutes</dd>
+          </div>
+
+          <div>
+            <dt class="text-preset-04-bold">Cooking:</dt>
+            <dd class="text-preset-04">5 minutes</dd>
+          </div>
+        </dl>
       </section>
       <section>
         <h2 class="text-preset-02">Ingredients</h2>
