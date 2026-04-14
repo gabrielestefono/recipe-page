@@ -4,7 +4,7 @@
   <header>
     <figure>
       <img src="/top-image.png" alt="Omelette" />
-      <figcaption class="sr-only">Omelette with cheese and ham</figcaption>
+      <figcaption>Simple omelette recipe, ready in just 10 minutes</figcaption>
     </figure>
     <h1 class="text-preset-01">Simple Omelette Recipe</h1>
     <p class="text-preset-04">
