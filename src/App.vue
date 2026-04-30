@@ -3,31 +3,37 @@
 <template>
   <main>
     <article>
-      <header>
+      <header class="title-container">
         <figure>
           <img src="/top-image.png" alt="Omelette" />
-          <figcaption>Simple omelette recipe, ready in just 10 minutes</figcaption>
+          <figcaption class="sr-only">Simple omelette recipe, ready in just 10 minutes</figcaption>
         </figure>
-        <h1 class="text-preset-01">Simple Omelette Recipe</h1>
-        <p class="text-preset-04">
+        <h1 class="text-preset-01 laterals">Simple Omelette Recipe</h1>
+        <p class="text-preset-04 laterals">
           An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs
           cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
         </p>
       </header>
-      <section>
-        <h2 class="text-preset-03">Preparation time</h2>
-        <dl>
-          <dt class="text-preset-04-bold">Total:</dt>
-          <dd class="text-preset-04">Approximately 10 minutes</dd>
-
-          <dt class="text-preset-04-bold">Preparation:</dt>
-          <dd class="text-preset-04">5 minutes</dd>
-
-          <dt class="text-preset-04-bold">Cooking:</dt>
-          <dd class="text-preset-04">5 minutes</dd>
-        </dl>
+      <section class="laterals preparation-time">
+        <div>
+          <h2 class="text-preset-03">Preparation time</h2>
+          <ul>
+            <li>
+              <strong class="text-preset-04-bold">Total:</strong>
+              <span class="text-preset-04">Approximately 10 minutes</span>
+            </li>
+            <li>
+              <strong class="text-preset-04-bold">Preparation:</strong>
+              <span class="text-preset-04">5 minutes</span>
+            </li>
+            <li>
+              <strong class="text-preset-04-bold">Cooking:</strong>
+              <span class="text-preset-04">5 minutes</span>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
+      <section class="laterals">
         <h2 class="text-preset-02">Ingredients</h2>
         <ul>
           <li class="text-preset-04">2-3 large eggs</li>
@@ -39,7 +45,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="laterals">
         <h2 class="text-preset-02">Instructions</h2>
         <ol>
           <li class="text-preset-04">
@@ -80,7 +86,7 @@
           </li>
         </ol>
       </section>
-      <section>
+      <section class="laterals">
         <h2 class="text-preset-02">Nutrition</h2>
         <p class="text-preset-04">
           The table below shows nutritional values per serving without the additional fillings.
@@ -120,4 +126,61 @@
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+figure > img {
+  width: 100%;
+  max-height: 23.4375rem;
+}
+
+.title-container > h1 {
+  color: var(--stone-900);
+  margin-top: var(--spacing-500);
+}
+
+.title-container > p {
+  color: var(--stone-600);
+  margin-top: var(--spacing-300);
+}
+
+.preparation-time > div {
+  padding: var(--spacing-300);
+  background-color: var(--rose-50);
+  border-radius: var(--spacing-150);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+}
+
+.preparation-time > div > h2 {
+  color: var(--rose-800);
+}
+
+.preparation-time > div > ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+}
+
+.preparation-time ul {
+  list-style: none;
+}
+
+.preparation-time li {
+  color: var(--stone-600);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.preparation-time li::before {
+  content: "•";
+  color: var(--rose-800);
+  margin-right: 1rem;
+  line-height: 1.5rem;
+}
+
+.preparation-time li::marker {
+  color: var(--rose-800);
+  margin-right: 0.75rem;
+}
+</style>
